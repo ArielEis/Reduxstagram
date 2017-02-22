@@ -19,18 +19,70 @@ html, body{
 
 .photo-grid{
     position: relative;
-    left: -45%;
+    left: -35%;
     width: 1200px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.grid-figure{
+.grid-figure , .single-photo{
     background-color: snow;
-    height: 50px;
-    width: 300px;
+    width: 250px;
+    height: 400px;
     outline: 4px solid lightgray;
     line-height: 50px;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    vertical-align: top;
+}
+
+.grid-photo{
+    width: 250px;
+    height: 300px;
+}
+
+.fig-caption{
+    position: relative;
+    top: -20px;
     text-indent: 20px;
+    font-weight: bold;
+}
+
+.control-buttons button{
+    width: 60px;
+    height: 23px;
+    color: midnightblue;
+    background-color: snow;
+    outline: 1px solid lightgrey;
+    border: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.control-buttons button:hover, .control-buttons .button:hover{
+    outline: 2px solid midnightblue;
+}
+
+.control-buttons .button{
+    position: relative;
+    top: -2px;
+    left: 60px;
+    width: 80px;
+    height: 19px;
+    color: midnightblue;
+    background-color: snow;
+    outline: 1px solid lightgrey;
+    border: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.speech-bubble{
+    position: relative;
+    top: 4px;
+    content: url("https://www.wescom.org/contact/images/newebranch-chat-icon.png");
+    width: 20px;
+    height: 20px;
 }
