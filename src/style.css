@@ -1,6 +1,7 @@
 html, body{
     margin-left: 20%;
     margin-top: 2%;
+    background-color: azure;
 }
 
 #container h1{
@@ -14,4 +15,22 @@ html, body{
     text-decoration: none;
     color: midnightblue;
     cursor: default;
+}
+
+.photo-grid{
+    position: relative;
+    left: -45%;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-figure{
+    background-color: snow;
+    height: 50px;
+    width: 300px;
+    outline: 4px solid lightgray;
+    line-height: 50px;
+    margin-left: 10px;
+    text-indent: 20px;
 }
