@@ -1,0 +1,17 @@
+html, body{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+#container h1{
+    font-family: 'Oleo Script', cursive;
+    font-size: 400%;
+    color: midnightblue;
+    font-weight: bold;
+}
+
+#container a, #container a:hover, #container a:link, #container a:active{
+    text-decoration: none;
+    color: midnightblue;
+    cursor: default;
+}
