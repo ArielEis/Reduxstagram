@@ -32,7 +32,7 @@ const posts = [
     {
         "code":"iG4PHgcq",
         "caption":"Elyaniv Barda",
-        "likes":41,
+        "likes":4125,
         "id":"000000000000000005",
         "display_src":"http://www.sport5.co.il/Sip_Storage/FILES/1/size475x318/606201.jpg"
     },

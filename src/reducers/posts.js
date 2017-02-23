@@ -13,7 +13,7 @@ function posts(state = [], action) {
                         likes: state[i].likes + 1,
                     },
                     ...state.slice(i + 1),
-            ]
+            ];
 
         default:
             return state;

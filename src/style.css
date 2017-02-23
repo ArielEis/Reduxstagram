@@ -49,7 +49,7 @@ html, body{
 }
 
 .control-buttons button{
-    width: 60px;
+    width: 80px;
     height: 23px;
     color: midnightblue;
     background-color: snow;
@@ -85,4 +85,47 @@ html, body{
     content: url("https://www.wescom.org/contact/images/newebranch-chat-icon.png");
     width: 20px;
     height: 20px;
+}
+
+.single-show .single-photo{
+    display: flex;
+    position: relative;
+    left: -50px;
+    width: 500px;
+    height: 400px;
+    align-content: left;
+}
+
+
+.single-show .grid-figure {
+    outline: none;
+}
+
+.comment{
+    height: 20px;
+    line-height: 80px;
+    border-bottom: 1px solid lightgray;
+}
+
+.comment strong{
+    color: royalblue;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.remove-comment{
+    position: relative;
+    top: 5px;
+    left: 20px;
+    background-color: snow;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+
+.comment-form{
+    position: relative;
+    top: 40px;
+    line-height: 30px;
 }
